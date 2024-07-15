@@ -9,4 +9,4 @@ This project was proposed by Digital Innovation One, your objective is develop a
 
 # Class Modeling
 
-![](C:\Users\Leona\Downloads\Modelo-de-classes-Apple.png)
+![](https://raw.githubusercontent.com/LeoPeixinho/dio-bootcampJavaApple/main/Modelo-de-classes-Apple.png)
