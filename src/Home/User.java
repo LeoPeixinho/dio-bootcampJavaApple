@@ -7,11 +7,11 @@ import Functions.ITunes;
 import Functions.Safari;
 import Functions.Telephone;
 import Functions.ProcessComand;
-public class Principal {
+public class User {
 	public static void main (String[]args) {
 		
 		Home home = new Home();
-		home.getNome();
+		home.getName();
 		home.toString();
 		ProcessComand.start(null);
 		ProcessComand.off();

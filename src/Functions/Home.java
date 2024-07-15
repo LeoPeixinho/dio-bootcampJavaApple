@@ -3,8 +3,8 @@ package Functions;
 import java.util.Scanner;
 public class Home{
 	
-	private String nome;
-	private String localidade;
+	private String name;
+	private String locality;
 	
 	
 
@@ -12,29 +12,29 @@ public class Home{
 	Scanner sc = new Scanner (System.in);	
 
 	System.out.println("Seja bem vindo, digite o seu nome: ");
-	this.nome = sc.nextLine();
+	this.name = sc.nextLine();
 
 	System.out.println("Qual a sua região? ");
-	this.localidade = sc.nextLine();
+	this.locality = sc.nextLine();
 	
 	}
 
-	public String getNome(){
-	return nome;	
+	public String getName(){
+	return name;	
 	}	
-	public void setNome(String nome){
-	this.nome = nome;
+	public void setName(String name){
+	this.name = name;
 	}
 	
-	public String getLocalidade(){
-	return localidade;
+	public String getLocality(){
+	return locality;
 	}
-	public void setLocalidade(String localidade){
-	this.localidade = localidade;
+	public void setLocality(String locality){
+	this.locality = locality;
 	}
 	
 	public String toString(){
-	System.out.println("Iphone de " + nome + " na região: " + localidade);	
-	return "Iphone de " + nome + " na região: " + localidade;
+	System.out.println("Iphone de " + name + " na região: " + locality);	
+	return "Iphone de " + name + " na região: " + locality;
 	}
 }

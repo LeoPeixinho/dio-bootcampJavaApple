@@ -1,5 +1,5 @@
 package Functions;
-import Home.Principal;
+import Home.User;
 import java.util.Scanner;
 
 public class ProcessComand {
